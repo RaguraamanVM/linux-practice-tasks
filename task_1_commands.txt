@@ -1,8 +1,13 @@
-ls 
-mkdir my_folder
+mkdir my_folder/
 cd my_folder/
+
 vim my_file.txt
-touch another_file.txt
-cp my_file another_file
-cat another_file
-cat another_file
+cat my_file.txt
+vim another_file.txt
+cat another_file.txt
+
+cat another_file.txt >> my_file.txt
+cat my_file.txt
+
+pwd
+ls -lstrh
