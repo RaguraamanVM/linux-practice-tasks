@@ -1,0 +1,8 @@
+ls 
+mkdir my_folder
+cd my_folder/
+vim my_file.txt
+touch another_file.txt
+cp my_file another_file
+cat another_file
+cat another_file
