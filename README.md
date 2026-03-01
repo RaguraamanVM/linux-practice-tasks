@@ -5,7 +5,7 @@ Steps Perfomed:
 2. Navigated into the directory
 3. Created a file my_file.txt with some text
 4. Created another file another_file.txt with some text
-5. Concatenated the content of another_file.txt _ to  my_file.txt
+5. Concatenated the content of another_file.txt to  my_file.txt
 6. Displayed the updated content
 
 
