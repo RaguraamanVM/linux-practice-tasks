@@ -1,0 +1,5 @@
+#To check whether a port is open or not.
+
+ss -tnlp | grep 9000    
+nc -zv 52.66.207.5 9000
+telnet 52.66.207.5 9000

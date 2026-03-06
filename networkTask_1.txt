@@ -1,0 +1,5 @@
+nslookup guvi.in
+top
+nc -zv 13.233.162.27 22
+ping 13.233.162.27
+traceroute 13.233.162.27
