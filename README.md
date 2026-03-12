@@ -1,7 +1,15 @@
-#Linux Practice Tasks
+# **Linux Practice Tasks**
 
-This repository contains my Linux practice exercises and scripting tasks as I learn and explore Linux system administration.
-It includes shell scripts, command-line experiments, and real-world practice problems focused on improving my Linux and DevOps skills.
+This is a collection of my Linux practice exercises, Bash scripting tasks, and system administration experiments.
+This repository documents my journey of strengthening my Linux, scripting, and DevOps fundamentals through hands-on practice.
 
-The goal of this repository is to build a strong foundation in Linux by practicing commands, automation with Bash scripting, and solving practical system tasks.
 
+
+## Skills Practiced
+
+* Linux Command Line
+* Bash Scripting
+* File System Management
+* Process Management
+* Networking Commands
+* Automation using Shell Scripts
