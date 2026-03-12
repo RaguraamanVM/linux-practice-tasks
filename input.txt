@@ -1,0 +1,10 @@
+Line 1: welcome and give 
+Line 2: give only 
+Line 3: welcome only 
+Line 4: welcome and give
+Line 5: welcome and learning 
+Line 6: just give 
+Line 7: welcome and learning and learning again 
+Line 8: welcome only 
+Line 9: welcome and learning 
+Line 10: learning but no welcome word here
