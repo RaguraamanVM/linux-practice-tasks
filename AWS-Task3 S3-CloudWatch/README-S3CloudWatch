@@ -1,2 +1,0 @@
-Created a private Amazon S3 bucket and configured AWS CloudTrail to capture object-level (read/write) events.
-Integrated CloudTrail with Amazon CloudWatch to monitor and analyze S3 activity logs in real time.
