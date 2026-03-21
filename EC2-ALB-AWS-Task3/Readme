@@ -1,0 +1,10 @@
+This project demonstrates a basic high-availability web architecture using AWS services. It showcases how to deploy multiple EC2 instances and distribute incoming traffic using an Application Load Balancer.
+
+Architecture: 
+Application Load Balancer (ALB)
+Multiple EC2 instances
+Public and Private Subnet setup
+Security Groups for controlled access
+
+Traffic Flow:
+Internet → ALB → EC2 Instances
