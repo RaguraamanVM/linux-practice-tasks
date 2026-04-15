@@ -1,0 +1,1 @@
+To create a custom docker image for nginx and deploy it using docker compose, where the volume bind mount should be at /var/opt/nginx location and to push the created custom docker image to my docker-hub.
