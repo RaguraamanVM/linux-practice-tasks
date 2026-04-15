@@ -1,0 +1,8 @@
+services:
+  nginx:
+    build: .
+    container_name: custom-nginx
+    ports:
+      - "8082:80"
+    volumes:
+      - ./html:/var/opt/nginx
