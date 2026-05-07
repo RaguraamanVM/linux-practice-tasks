@@ -1,3 +1,3 @@
 echo "Hello from Ragu"
 date
-Webhook triggered build
+echo "Webhook triggered build"
