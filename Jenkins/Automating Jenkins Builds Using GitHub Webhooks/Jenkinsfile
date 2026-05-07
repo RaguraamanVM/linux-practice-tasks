@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Run Script') {
             steps {
-                sh 'chmod +x Jenkins/Automating Jenkins Builds Using GitHub Webhooks/script.sh'
-                sh 'sh Jenkins/Automating Jenkins Builds Using GitHub Webhooks/script.sh'
+                sh 'chmod +x "Jenkins/Automating Jenkins Builds Using GitHub Webhooks/script.sh"'
+                sh '"Jenkins/Automating Jenkins Builds Using GitHub Webhooks/script.sh"'
             }
         }
     }
