@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Run Script') {
+            steps {
+                sh 'chmod +x script.sh'
+                sh './script.sh'
+            }
+        }
+    }
+
+    post {
+        success {
+            emailext(
+                subject: "SUCCESS: JENKINS BUILD",
+                body: "Build completed successfully.",
+                to: "ragu.cloudjourney@gmail.com"
+            )
+        }
+
+        failure {
+            emailext(
+                subject: "FAILED: !!!Jenkins Build!!!",
+                body: "Build failed.",
+                to: "ragu.cloudjourney@gmail.com"
+            )
+        }
+    }
+}
